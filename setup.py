@@ -8,7 +8,7 @@ __version__ = "0.0.0"
 
 REPO_NAME = "Chest-Cancer-Classification-Project"
 AUTHOR_USER_NAME = "Shabareesh Nair"
-SRC_REPO = "Chest Cancer Classification"
+SRC_REPO = "ChestCancerClassification"
 AUTHOR_EMAIL = "shabareesh08@gmail.com"
 
 
