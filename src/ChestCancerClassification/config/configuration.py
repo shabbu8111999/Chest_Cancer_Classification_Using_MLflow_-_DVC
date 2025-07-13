@@ -1,7 +1,7 @@
 from ChestCancerClassification.constants import *
 from ChestCancerClassification.utils.common import read_yaml, create_directories
-from ChestCancerClassification.entity.config_entity import (DataIngestionConfig)
-                                                            #PrepareBaseModelConfig)
+from ChestCancerClassification.entity.config_entity import (DataIngestionConfig,
+                                                            PrepareBaseModelConfig)
 
 class ConfigurationManager:
     def __init__(
@@ -31,7 +31,7 @@ class ConfigurationManager:
     
 
 
-    """
+    
     def get_prepare_base_model_config(self) -> PrepareBaseModelConfig:
         config = self.config.prepare_base_model
         
@@ -49,4 +49,3 @@ class ConfigurationManager:
         )
 
         return prepare_base_model_config
-        """
