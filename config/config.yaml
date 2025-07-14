@@ -16,7 +16,7 @@ prepare_base_model:
 
 
 
-#training:
-#  root_dir: artifacts/training
-#  trained_model_path: artifacts/training/model.h5
-#  training_data: artifacts/data_ingestion/train_jpg
+training:
+  root_dir: artifacts/training
+  trained_model_path: artifacts/training/model.h5
+  #training_data: artifacts/data_ingestion/Chest_Scan_CT
